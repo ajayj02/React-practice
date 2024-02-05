@@ -1,0 +1,52 @@
+
+.inputform{
+    text-align: center;
+}
+
+
+.label{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.inputbox {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s; 
+}
+
+.inputbox:hover {
+    border-color: #555;
+  }
+  
+  /* Focus effect */
+  .inputbox:focus {
+    outline: none;
+    border-color: #2185d0; /* Change the color to your preference */
+    box-shadow: 0 0 5px rgba(33, 133, 208, 0.7); /* Optional box shadow */
+  }
+  
+  /* Placeholder text style */
+  input::placeholder {
+    color: #999;
+  }
+
+  .addbtn {
+    padding: 10px 20px;
+    background-color: #2185d0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: 24px;
+  }
+  
+  .addbtn:hover {
+    background-color: #0a5c9e;
+  }
